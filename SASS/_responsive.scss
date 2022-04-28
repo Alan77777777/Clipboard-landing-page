@@ -1,0 +1,153 @@
+@media(min-width: 1240px) {
+    body {
+        background-image: url(/images/bg-header-desktop.png);
+        background-size: contain;
+    }
+    .banner button {
+        margin: 12.5px 10px !important;
+        padding: 17px 50px !important;
+    }
+    .banner .buttons {
+        flex-direction: row !important;
+        justify-content: center;
+    }
+    .footer {
+        display: flex;
+        flex-direction: row;
+        ul {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            margin: 30px 290px 30px 100px !important;
+            line-height: 45px;
+            li {
+                text-align: left;
+                padding: 0px !important;
+            }
+        }
+        #logo-footer {
+            margin: 50px !important;
+            width: 55px !important;
+            height: 55px !important;
+        }
+        ol {
+            padding: 0px !important;
+            li {
+                padding: 60px 13px;
+            }
+        }
+    }
+    .logos-list {
+        ul {
+            display: flex;
+            flex-direction: row;
+            li {
+                padding: 00px 55px !important;
+                line-height: 80px !important;
+            }
+        }
+        display: flex;
+        justify-content: center;
+    }
+    .sub-article {
+        display: flex;
+    }
+    .articles .article-img {
+        width: 810px !important;
+    }
+    .first-article {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-top: 110px;
+    }
+    .division {
+        display: flex;
+    }
+    .mac {
+        margin: 45px 100px 0px -70px !important;
+    }
+    .second-article {
+        display: flex;
+        justify-content: center;
+        article {
+            width: 350px;
+        }
+    }
+    // globals
+    h1 {
+        font-size: 45px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    h3 {
+        font-size: 24px;
+        letter-spacing: 0px;
+    }
+    p {
+        font-size: 18px;
+    }
+    #bottom-h1 {
+        font-size: 35px;
+    }
+    #header-p {
+        font-size: 20px;
+    }
+    .sub-art-par {
+        font-size: 16px;
+    }
+    .footer {
+        ul {
+            li {
+                padding-right: 65px !important;
+            }
+            #faq {
+                grid-column: 1/2;
+                grid-row: 1/2;
+            }
+            #con {
+                grid-column: 1/2;
+                grid-row: 2/3;
+            }
+            #pri {
+                grid-column: 2/3;
+                grid-row: 1/2;
+            }
+            #pre {
+                grid-column: 2/3;
+                grid-row: 2/3;
+            }
+            #ins {
+                grid-column: 3/4;
+                grid-row: 1/2;
+            }
+        }
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    .banner {
+        width: 700px !important;
+        align-self: center;
+    }
+    .articles {
+        display: flex;
+        flex-direction: column;
+    }
+    .threart {
+        width: 700px !important;
+        align-self: center;
+    }
+    #celldesk {
+        align-self: center;
+        margin: 65px 0px 90px 0px !important;
+    }
+    .first-article {
+        width: 345px !important;
+    }
+    .logos-list {
+        margin-top: 120px !important;
+    }
+}

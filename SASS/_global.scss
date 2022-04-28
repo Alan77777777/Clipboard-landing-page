@@ -1,0 +1,79 @@
+// ### Primary
+$Strong-Cyan: hsl(171, 66%, 44%);
+$Light-Blue: hsl(233, 100%, 69%);
+// ### Neutral
+$Dark-Grayish-Blue: hsl(210, 10%, 33%);
+$Grayish-Blue: hsl(201, 11%, 66%);
+// font
+$font:'Bai Jamjuree',
+sans-serif;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    font-family: $font;
+    font-size: 18px;
+    text-align: center;
+    background-image: url(/images/bg-header-mobile.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+// footer
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    padding: 10px;
+    background-color: hsla(202, 11%, 66%, 0.10);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.attribution a:hover {
+    color: black;
+}
+
+h1 {
+    color: $Dark-Grayish-Blue;
+    padding: 15px 0px;
+    font-size: 32px;
+}
+
+h2 {
+    color: $Dark-Grayish-Blue;
+    padding: 15px 0px;
+    font-size: 29px;
+}
+
+h3 {
+    color: $Dark-Grayish-Blue;
+    padding: 15px 0px;
+}
+
+p {
+    font-size: 16px;
+    color: $Grayish-Blue;
+    padding-bottom: 35px;
+    line-height: 25px;
+}
+
+ul {
+    li {
+        color: $Dark-Grayish-Blue;
+        cursor: pointer;
+    }
+}
+
+.banner {
+    margin: 0px 31px;
+}
+
+.articles {
+    margin: 0px 31px;
+}

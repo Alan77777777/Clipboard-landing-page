@@ -1,0 +1,137 @@
+            @import 'global';
+            @import 'responsive';
+            // ### Primary
+            $Strong-Cyan: hsl(171, 66%, 44%);
+            $Light-Blue: hsl(233, 100%, 69%);
+            // ### Neutral
+            $Dark-Grayish-Blue: hsl(210, 10%, 33%);
+            $Grayish-Blue: hsl(201, 11%, 66%);
+            // font
+            $font:'Bai Jamjuree',
+            sans-serif;
+            // footer
+            .footer {
+                background-color: hsla(202, 11%, 66%, 0.10);
+            }
+            
+            // banner
+            .banner {
+                img {
+                    margin-bottom: 60px;
+                    margin-top: 120px;
+                }
+                .buttons {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-bottom: 130px;
+                }
+                button {
+                    border: none;
+                    border-radius: 30px;
+                    color: white;
+                    font-size: 18px;
+                    padding: 17px 84px;
+                    margin: 12.5px 0px;
+                    box-shadow: inset 0px -4px 0px 0px rgba(0, 0, 0, 0.15), 0px 26px 25px 1px rgba(0, 0, 0, 0.11);
+                }
+                button:first-of-type {
+                    background-color: $Strong-Cyan;
+                }
+                button:last-of-type {
+                    background-color: $Light-Blue;
+                }
+            }
+            
+            .banner-bottom {
+                margin-bottom: 160px;
+                margin-top: 140px;
+            }
+            
+            // articles
+            .articles {
+                .article-img {
+                    width: 315px;
+                }
+                .article-img:first-of-type {
+                    margin: 35px 0px;
+                }
+                .article-img:last-of-type {
+                    margin: 35px 0px 90px 0px;
+                }
+            }
+            
+            .triple-images {
+                margin: 20px 0px;
+            }
+            
+            #workflow {
+                margin-bottom: 40px;
+            }
+            
+            #clipboard-acces {
+                margin-top: 135px;
+            }
+            
+            // logos
+            .logos-list {
+                margin-top: 70px;
+                ul {
+                    li {
+                        padding: 30px 0px;
+                    }
+                }
+            }
+            
+            //faqs && footer
+            ol {
+                display: flex;
+                justify-content: center;
+                padding-top: 30px;
+                padding-bottom: 45px;
+                li {
+                    padding: 0px 20px;
+                    transition: all 300ms;
+                }
+            }
+            
+            .footer {
+                justify-content: center;
+                #logo-footer {
+                    width: 50px;
+                    height: 50px;
+                    margin-top: 45px;
+                    margin-bottom: 25px;
+                }
+                ul {
+                    li {
+                        padding: 15px 0px;
+                    }
+                }
+            }
+            
+            //active states
+            button:first-of-type:hover {
+                background-color: hsla(171, 66%, 44%, 0.75);
+                cursor: pointer;
+            }
+            
+            button:last-of-type:hover {
+                background-color: hsla(233, 100%, 69%, 0.75);
+                cursor: pointer;
+            }
+            
+            .footer {
+                ul {
+                    li:hover {
+                        cursor: pointer;
+                        color: $Strong-Cyan;
+                    }
+                }
+                ol {
+                    li:hover {
+                        cursor: pointer;
+                        transform: scale(1.2, 1.2);
+                    }
+                }
+            }
